@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"/>
+
+    <link rel="stylesheet" href="Css/header.css">
+    <link rel="stylesheet" href="Css/home.css">
+    <link rel="stylesheet" href="Css/about-me.css">
+    <link rel="stylesheet" href="Css/services.css">
+    <link rel="stylesheet" href="Css/project.css">
+    <link rel="stylesheet" href="Css/assignment.css">
+    <link rel="stylesheet" href="Css/skills.css">
+    <link rel="stylesheet" href="Css/contact-me.css">
+    <link rel="stylesheet" href="Css/footer.css">
+
+    <!-- Animation Aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        
+    </style>
+</head>
+<!-- header section -->
+<header>
+    <div class="header">
+        <img class="logo" src="/assets/images/header/mishara-high-resolution-logo 1.jpg" alt="logo">
+
+        <button class="menu" onclick="toggleSidebar()">☰</button>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#about-me">About me</a>
+            <a href="#service">Services</a>
+            <a href="#works-projects">Works</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact-me">Contact me</a>
+        </nav>
+
+        <div class="sidebar" id="sidebar">
+            <a href="#home">Home</a>
+            <a href="#about-me">About me</a>
+            <a href="#service">Services</a>
+            <a href="#works-projects">Works</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact-me">Contact me</a>
+            <a href="javascript:void(0)" class="closebtn" onclick="toggleSidebar()">&times;</a>
+        </div>
+    </div>
+</header>
+
+
+<!-- Home section -->
+<section id="home">
+    <div id="home-content">
+
+        <h4>Hello It’s Me</h4>
+        <h3>Mishara Sandali</h3>
+        <p>And I’m a <span>Web Developer</span></p>
+
+        <div id="s-icons">
+          
+            <div id="s-icons">
+                <a href="https://www.facebook.com/pmkavindu.lakshan?mibextid=ZbWKwL">
+                    <img src="assets/images/home/facebook-logo-24.png" alt="Facebook Logo">
+                </a>
+                <a href="https://wa.me/qr/HK2NMZ3DSY3JL1">
+                    <img src="assets/images/home/whatsapp-logo-24.png" alt="WhatsApp Logo">
+                </a>
+                <a href="https://github.com/KavinduLakshanFernando">
+                    <img src="assets/images/home/github-logo-24.png" alt="GitHub Logo">
+                </a>
+                <a href="https://www.linkedin.com/in/kavindu-lakshan-f-do-114829318?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+                    <img src="assets/images/home/icons8-linkedin-150.png" alt="LinkedIn Logo">
+                </a>
+            </div>
+          
+        </div>
+
+        <div id="home-btn">
+            <a href="">
+                <button>HireMe</button>
+            </a>
+        </div>
+
+    </div>
+
+    <div id="my-image">
+        <img src="assests/images/home/2024101601521506.png" alt="" width="400px">
+    </div>
+
+</section>
+
+
+<!-- About Section -->
+<main id="about">
+
+    <div>
+        <h2 data-aos="zoom-in-up">About <span data-aos="zoom-in-up">Me</span></h2>
+    </div>
+
+    <section class="about-me-main-content-section">
+        <div id="my-image2">
+            <img src="assests/images/about-me/WhatsApp%20Image%202024-07-13%20at%2009.11.26_7f8526d7.jpg">
+        </div>
+
+        <div id="details">
+            <div class="aboutme-p">I am Mishara Sandali, a dedicated student on a journey to excel in the realm of software engineering.
+                With a strong foundation and a thirst for challenges, I am poised to make a mark in the field,transforming ideas into seamless digital solutions.
+            </div>
+
+            <div id="btn">
+                <a href="#">
+                    <button class="button">Download CV</button>
+                </a>
+            </div>
+        </div>
+
+    </section>
+</main>
+
+<section id="service">
+    <div class="service-text">
+        <h2>Services</h2>
+    </div>
+
+    <div id="cards" data-aos="fade-right"
+         data-aos-anchor-placement="center-bottom" data-aos-duration="2500">
+        <div>
+            <img src="assests/images/services/img-1.png" width="100">
+            <h4>Pos System</h4>
+        </div>
+
+        <div>
+            <img src="assests/images/services/img-2.png" width="100">
+            <h4>Web Development</h4>
+        </div>
+
+        <div>
+            <img src="assests/images/services/img-3.png" width="100">
+            <h4>UI/UX Design</h4>
+        </div>
+
+        <div>
+            <img src="assests/images/services/img-4.png" width="100">
+            <h4>Mobile App Development</h4>
+        </div>
+    </div>
+</section>
+
+<!-- Works-projects Section -->
+
+<section id="works-projects">
+    <h3 id="projects-text">Projects</h3>
+
+    <div id="cards-projects">
+        <div>
+            <div>
+                <img src="assests/images/works/projects/img_1.png" width="150">
+            </div>
+            <div>
+                <h3>Sale System</h3>
+                <p>Java Language Based Layered Architecture Project</p>
+                <a href="#" class="p-btn">View</a>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <img src="assests/images/works/projects/img_3.png" width="150">
+            </div>
+            <div>
+                <h3>Mishara Renters</h3>
+                <p>Java Language Based Project</p>
+                <a href="#" class="p-btn">View</a>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <img src="assests/images/works/projects/img_3.png" width="150">
+            </div>
+            <div>
+                <h3>Project-3</h3>
+                <p>Java Language Based Project</p>
+                <a href="#" class="p-btn">View</a>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <img src="assests/images/works/projects/img_3.png" width="150">
+            </div>
+            <div>
+                <h3>Project-4</h3>
+                <p>Java Language Based Project</p>
+                <a href="#" class="p-btn">View</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Works-assignments section -->
+<main id="assignment-part">
+    <div>
+        <br>
+        <h2 data-aos="zoom-in-up">Assignment</h2>
+    </div>
+    <section id="assignments">
+        <div>
+            <h4>Assignment 01</h4>
+            <p>A website to represent myself and my skill sets</p>
+            <button class="btn"><a href="#">SiteMap</a></button>
+            <button class="btn"><a href="#">WireFrame</a></button>
+            <button class="btn"><a href="#">Mockup</a></button>
+            <img class="a_img" src="assests/images/assignments/github-logo-24.png">
+        </div>
+        <div>
+            <h4>Assignment 02</h4>
+            <p>my mock-up and start to Implement it and make the structure of my web site using
+                HTML elements</p>
+            <img class="a_img" src="assests/images/assignments/github-logo-24.png">
+
+        </div>
+        <div>
+            <h4>Assignment 03</h4>
+            <p>Using the CSS positions</p>
+            <button class="btn"><a href="#">Case-01</a></button>
+            <button class="btn"><a href="#">Case-02</a></button>
+            <button class="btn"><a href="#">Case-03</a></button>
+            <button class="btn"><a href="#">Case-04</a></button>
+            <button class="btn"><a href="#">Case-05</a></button>
+            <button class="btn"><a href="#">Case-06</a></button>
+            <img class="a_img" src="assests/images/assignments/github-logo-24.png">
+
+        </div>
+        <div>
+            <h4>Assignment 04</h4>
+            <!--            <p>Use transitions and key-frames to implement following Animations. Note :- On here you cant use any type of CSS frameworks,plugins for this assignment.</p>-->
+            <button class="btn"><a href="#">Case-01</a></button>
+            <button class="btn"><a href="#">Case-02</a></button>
+            <button class="btn"><a href="#">Case-03</a></button>
+            <button class="btn"><a href="#">Case-04</a></button>
+            <button class="btn"><a href="#">Case-05</a></button>
+            <img class="a_img" src="assests/images/assignments/github-logo-24.png">
+        </div>
+        <div>
+            <h4>Assignment 05</h4>
+            <p>My Portfolio Using Html And Css And Js</p>
+            <img class="a_img" src="assests/images/assignments/github-logo-24.png">
+
+        </div>
+        <div>
+            <h4>Assignment 06</h4>
+            <p>Create a simple POS system UIs to achieve below goals using CSS Frameworks.</p>
+            <button class="btn"><a href="#">SiteMap</a></button>
+            <button class="btn"><a href="#">WireFrame</a></button>
+            <button class="btn"><a href="#">Mockup</a></button>
+            <button class="btn"><a href="#">Pos-System</a></button>
+            <img class="a_img" src="assests/images/assignments/github-logo-24.png">
+
+        </div>
+
+    </section>
+    </div>
+</main>
+
+<!-- Skills Section -->
+
+<section id="skills">
+    <div id="skills-text">
+        <h2>Skills</h2>
+    </div>
+
+    <div id="skills-list">
+        <div id="skills-icon">
+            <img src="assests/images/skills/java.jpg" width="70">
+            <img src="assests/images/skills/mysql.jpg" width="70">
+            <img src="assests/images/skills/figma.jpg" width="70">
+            <img src="assests/images/skills/html.png" width="70">
+            <img src="assests/images/skills/css.png" width="70">
+            <img src="assests/images/skills/js.png" width="70">
+        </div>
+
+        <div id="skills-content">
+            <ol>
+                <li>Team Working</li>
+                <li>Problem Solving</li>
+                <li>Time management</li>
+                <li>Self - Motivation</li>
+                <li>Communication</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+
+<section id="contact-me">
+    <div id ="contact-text">
+        <h2>Contact <span>Me</span></h2>
+    </div>
+
+    <div id="contact-container">
+        <div id="contact-details">
+            <input class="name" type="text" placeholder="First Name">
+            <input class="name"type="text" placeholder="Last Name"> <br>
+            <input id="email" type="text" placeholder="Email"> <br>
+            <textarea id="text"></textarea>
+            <!--             <input  id="text" type="text" placeholder="message"> <br> <br>-->
+            <button id="c-btn"> Send</button>
+        </div>
+    </div>
+</section>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="footer-content">
+                <img class="footer-logo" src="/assets/images/footer/mishara-high-resolution-logo 1.jpg" alt="logo">
+
+                <div class="icons">
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/share/xtHt4rjZG8rtJWdT/"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://wa.me/message/CXTCRIUAFFKLD1"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://github.com/misharasandalidesilva"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/mishara-sandali-558557319?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+
+                <div class="contact-information">
+                    <p> Pelana, Weligama, SriLanka</p>
+                    <p>misharasandali@gmail.com</p>
+                    <p>+94 704044549</p>
+                </div>
+            </div>
+            <p class="copyright">© 2024 MisharaSandali. All rights reserved.</p>
+        </footer>
+
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+<script>
+    function toggleSidebar() {
+        const sidebar = document.getElementById("sidebar");
+        if (sidebar.style.width === "250px") {
+            sidebar.style.width = "0";
+        } else {
+            sidebar.style.width = "250px";
+        }
+    }
+
+</script>
+</body>
+</html>

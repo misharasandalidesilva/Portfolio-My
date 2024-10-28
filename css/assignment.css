@@ -1,0 +1,99 @@
+#assignment-part{
+    background: black;
+    margin-top: 50px;
+}
+#assignment-part>div>h2{
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    text-shadow: 2px 3px 6px #ffffff;
+}
+
+#assignments{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#assignments>div{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0px 3px 5px 0px rgb(95, 96, 96);
+    border-radius: 20px;
+    width: 200px;
+    height: 260px;
+    margin: 20px;
+    color: #ffffff;
+    justify-content: center;
+    text-align: center
+}
+#assignment-part>div>h2{
+    text-align: center;
+    font-size: 32px;
+}
+.a_img{
+    width: 25px;
+    height: 25px;
+}
+#assignments>div>h4{
+    font-size: 20px;
+    margin-top: 10px;
+}
+#assignments>div>p{
+    font-size: 17px;
+}
+.btn{
+    background-color: #0ef;
+    color: #000000;
+    width: 95px;
+    height: 28px;
+    border-radius: 11px;
+    transition: 0.5s ease;
+    align-self: center;
+}
+.btn>a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Mobile Size*/
+@media all and (max-width: 425px) {
+    #assignment-part{
+        padding: 50px;
+        margin-top: -15px;
+    }
+    #assignment-part>div>h2{
+        font-size: 30px;
+    }
+    #assignments{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    #assignments>div{
+        width: 235px;
+        height: 270px;
+        margin: 20px;
+    }
+    #assignment-part>div>h2{
+        font-size: 30px;
+    }
+    .a_img{
+        width: 22px;
+        height: 22px;
+    }
+    #assignments>div>h4{
+        font-size: 18px;
+        margin-top: 8px;
+    }
+    #assignments>div>p{
+        font-size: 16px;
+    }
+    .btn{
+        width: 88px;
+        height: 23px;
+        border-radius: 10px;
+    }
+}

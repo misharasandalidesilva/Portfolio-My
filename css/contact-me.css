@@ -1,0 +1,120 @@
+#contact-me{
+    background: black;
+    color: white;
+    margin-top: 50px;
+}
+#contact-text>h2{
+    text-align: center;
+    font-size: 36px;
+    color: white;
+}
+#contact-container>p{
+    font-size: 18px;
+}
+#contact-container{
+    justify-self: center;
+}
+
+#contact-details{
+    width: 800px;
+    height: 425px;
+    box-shadow: 2px 2px 10px 2px rgb(100, 110, 110);
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+    background: #191919;
+}
+.name{
+    width: 380px;
+    height: 30px;
+    margin: 7px;
+    /*box-shadow: 1px 2px 15px 3px rgb(100, 110, 110);*/
+    border-radius: 10px;
+    background: white;
+}
+#email{
+    width: 784px;
+    height: 30px;
+    margin: 5px;
+    /*box-shadow: 1px 2px 15px 3px rgb(100, 110, 110);*/
+    border-radius: 10px;
+    background: white;
+}
+#text{
+    width: 785px;
+    height: 275px;
+    margin: 5px;
+    /*box-shadow: 1px 2px 15px 3px rgb(100, 110, 110);*/
+    border-radius: 11px;
+    background: white;
+}
+
+#c-btn{
+    width: 75px;
+    height: 30px;
+    margin-left: 679px;
+    background: #0ef;
+    box-shadow: 1px 2px 15px 3px rgb(100, 110, 110);
+    border-radius: 12px;
+}
+
+/*Tab Size*/
+@media all and (max-width: 768px) {
+    #contact-text>h2{
+        font-size: 30px;
+    }
+
+    #contact-details{
+        width: 590px;
+        height: 390px;
+    }
+    .name{
+        width: 275px;
+        height: 26px;
+        margin: 7px;
+    }
+    #email{
+        width: 575px;
+        height: 26px;
+    }
+    #text{
+        width: 575px;
+        height: 260px;
+        margin: 5px;
+    }
+
+    #c-btn{
+        margin-left: 490px;
+
+    }
+}
+
+/*mobile Size*/
+@media all and (max-width: 425px) {
+    #contact-text>h2{
+        font-size: 30px;
+    }
+
+    #contact-details{
+        width: 300px;
+        height: 300px;
+    }
+    .name{
+        width: 130px;
+        height: 21px;
+    }
+    #email{
+        width: 285px;
+        height: 21px;
+    }
+    #text{
+        width: 286px;
+        height: 180px;
+        margin: 5px;
+    }
+
+    #c-btn{
+        margin-left: 220px;
+
+    }
+}

@@ -1,0 +1,46 @@
+#works-projects{
+    margin-top: 30px;
+}
+#projects-text{
+    text-align: center;
+    font-size: 36px;
+    color: black;
+}
+#cards-projects{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#cards-projects>div{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 5px 8px 14px 2px rgb(100, 110, 110);
+    border-radius: 30px;
+    width: 200px;
+    height: 250px;
+    margin: 30px;
+    align-items: center;
+    color: black;
+}
+/*Tab Size*/
+@media all and (max-width: 768px) {
+    #projects-text{
+        font-size: 30px;
+    }
+    #cards-projects>div{
+        width: 175px;
+        height: 240px;
+    }
+}
+/*phone Size*/
+@media all and (max-width: 425px) {
+    #projects-text{
+        font-size: 25px;
+    }
+    #cards-projects>div{
+        width: 200px;
+        height: 225px;
+    }
+}

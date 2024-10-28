@@ -1,0 +1,222 @@
+#home{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background: black;
+    color: wheat;
+}
+#my-image>img {
+    margin-top: 55px;
+}
+
+#home-content>h4{
+    font-size: 50px;
+    font-family:sans-serif;
+}
+#home-content>h3{
+    font-size: 43px;
+}
+#home-content>p{
+    font-size: 30px;
+}
+#home-content>p>span{
+    font-size: 30px;
+    color: #0ef;
+    font-weight: 10;
+}
+#home-icon{
+    margin-top: 10px;
+
+}
+#home-icon>a{
+    justify-content: center;
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    color: black;
+    background: transparent;
+    font-size: 2rem;
+    border-radius: 15px 10px;
+    margin: 5px;
+    border: 5px solid #00eeff;
+}
+#home-btn>a>button{
+    color: #0ef;
+    border-radius: 13px;
+    background-color: black;
+    border: 2px solid #0ef;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 15px;
+    transition: 0.3s ease;
+    width: 100px;
+    height: 32px;
+}
+#s-icons > a > img {
+    align-items: center;
+    width: 2rem;
+    height: 2rem;
+    color: black;
+    background: transparent;
+    font-size: 2rem;
+    border: 0.2rem solid #0ef ;
+    border-radius: 15px 10px;
+}
+#s-icons > a > img:hover {
+    color: black;
+    width: 2.1rem;
+    height: 2.1rem;
+
+}
+#s-icons {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+
+
+/*tab Size*/
+@media all and (max-width: 768px) {
+    #home{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        align-items: center;
+        align-content: space-between;
+    }
+    #my-image>img {
+        margin-top: 55px;
+    }
+
+    #home-content>h4{
+        font-size: 35px;
+        font-family:sans-serif;
+    }
+    #home-content>h3{
+        font-size: 37px;
+    }
+    #home-content>p{
+        font-size: 30px;
+    }
+    #home-content>p>span{
+        font-size: 28px;
+        color: #0ef;
+        font-weight: 10;
+    }
+    #home-icon{
+        margin-top: 10px;
+
+    }
+    #home-icon>a{
+        justify-content: center;
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        color: black;
+        background: transparent;
+        font-size: 2rem;
+        border-radius: 15px 10px;
+        margin: 5px;
+        border: 5px solid #00eeff;
+    }
+    #home-btn>a>button{
+        color: #0ef;
+        border-radius: 13px;
+        background-color: black;
+        border: 2px solid #0ef;
+        cursor: pointer;
+        font-size: 18px;
+        margin-top: 15px;
+        transition: 0.3s ease;
+        width: 100px;
+        height: 32px;
+    }
+    #s-icons > a > img {
+        align-items: center;
+        width: 2rem;
+        height: 2rem;
+        color: black;
+        background: transparent;
+        font-size: 2rem;
+        border: 0.2rem solid #0ef ;
+        border-radius: 15px 10px;
+    }
+    #s-icons > a > img:hover {
+        color: black;
+        width: 2.1rem;
+        height: 2.1rem;
+
+    }
+    #s-icons {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+}
+/*Phone Size*/
+@media all and (max-width: 425px) {
+    #home {
+        flex-direction: column;
+        align-items: center;
+        align-content: stretch;
+
+    }
+
+    #home-content {
+        margin-top: 90px;
+        margin-left: 10px;
+
+    }
+
+    #my-image > img {
+        margin-top: 10px;
+    }
+
+    #home-content > h4 {
+        font-size: 28px;
+        font-family: sans-serif;
+    }
+
+    #home-content > h3 {
+        font-size: 30px;
+    }
+
+    #home-content > p {
+        font-size: 17px;
+    }
+
+    #home-content > p > span {
+        font-size: 22px;
+        color: #0ef;
+        font-weight: 10;
+    }
+
+    #s-icons > a > img {
+        align-items: center;
+        width: 1.5rem;
+        height: 1.5rem;
+        color: black;
+        background: transparent;
+        font-size: 2rem;
+        border: 0.2rem solid #0ef;
+        border-radius: 15px 10px;
+    }
+
+    #s-icons {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    #s-icons > a > img:hover {
+        color: black;
+        width: 2.1rem;
+        height: 2.1rem;
+
+    }
+}

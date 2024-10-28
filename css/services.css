@@ -1,0 +1,66 @@
+#service{
+    background: black;
+    margin-top: 45px;
+}
+#service>div>h2{
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+}
+#cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#cards>div{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    box-shadow: 2px 4px 10px 0px rgb(100, 110, 110);
+    border-radius: 25px;
+    color: #ffffff;
+    width: 23vw;
+    height: 36vh;
+    margin: 3vw;
+}
+#cards>div>img, h4{
+    text-align: center;
+    margin: auto;
+}
+
+/*tab Size*/
+@media all and (max-width: 768px) {
+    #service>div>h2{
+        font-size: 30px;
+    }
+    #cards>div{
+        width: 26vw;
+        height: 40vh;
+        margin: 4vw;
+    }
+    #cards>div>img, h4{
+        font-size: 18px;
+    }
+}
+
+/*phone Size*/
+@media all and (max-width: 425px) {
+    #service>div>h2{
+        font-size: 25px;
+    }
+    #cards>div{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        box-shadow: 2px 4px 10px 0px rgb(100, 110, 110);
+        border-radius: 25px;
+        color: #ffffff;
+        width: 50vw;
+        height: 44vh;
+        margin: 6vw;
+    }
+    #cards>div>img, h4{
+        font-size: 18px;
+    }
+}
