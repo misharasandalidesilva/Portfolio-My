@@ -1,19 +1,57 @@
 .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding: 10px;
     background: black;
+    align-items: center;
+    padding: 0 20px;
+    z-index: 100;
+    border-bottom: 1px solid #0ef;
 }
 
-.navbar {
-    display: flex;
+.logo{
+    width: 100px;
+    height: 50px;
 }
 
-.navbar a {
-    margin: 0 10px;
-    text-decoration: none;
+.navbar a{ 
+    position: relative;
+    display: inline-block;
+    font-size: 17px;
     color: white;
+    text-decoration: none;
+    font-weight: 400;
+    margin: 0 20px;
+    transition: color 0.5s ease;
+}
+
+.navbar a:hover{
+    color: #0ef;
+    text-shadow: 0 0 10px #0ef;
+}
+
+.navbar a::after{
+    content: '';
+    bottom: -25px;
+    width: 10px;
+    height: 0px;
+    position: absolute;
+    background-color: #0ef;
+    border-radius: 25%;
+    transform: translateX(-50%);
+    transition: all 300ms;
+    /* padding-left: 20px;
+    margin-bottom: 5px; */
+}
+
+.navbar a:hover::after{
+    /* width: 100%; */
+    height: 10px;
+    left: 50%;
 }
 
 .menu{
@@ -58,8 +96,11 @@
     font-size: 36px;
 }
 
-@media screen and (max-width: 768px) {
-    .navbar {
+@media all and (max-width: 768px) {
+    .header{
+        width: 175%;
+    }
+    .navbar a{
         display: none;
     }
 
@@ -67,6 +108,64 @@
         display: block;
         color: #0ef;
         background: black;
+        /* margin-left: 556px; */
+    }
+    #sidebar>a{
+        color: #0ef;
+    }
+}
+
+@media all and (min-width: 376px) and (max-width: 425px) {
+    .header{
+        width: 160%;
+    }
+    .navbar a{
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        color: #0ef;
+        background: black;
+        /* margin-left: 243px; */
+    }
+    #sidebar>a{
+        color: #0ef;
+    }
+}
+
+@media all and (min-width: 321px) and (max-width: 375px) {
+    .header{
+        width: 155%;
+    }
+    .navbar a{
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        color: #0ef;
+        background: black;
+         /* margin-left: 193px; */
+    } 
+    #sidebar>a{
+        color: #0ef;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .header{
+        width: 147%;
+    }
+    .navbar a{
+        display: none;
+    }
+
+    .menu {
+        display: block;
+        color: #0ef;
+        background: black;
+        /* margin-left: 153px; */
     }
     #sidebar>a{
         color: #0ef;
