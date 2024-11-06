@@ -321,10 +321,61 @@
 }
 
    
-
+/* 
 @media all and (min-width: 769px) and (max-width: 1024px) {
+    #home {
+        flex-direction: column;
+        padding: 20px;
+        height: auto;
+        text-align: center;
+        padding: 0px 12% 20px;
+    }
+
+    .home-content{
+        margin-top: 82px;
+        margin-left: -70px;
+    }
+
+    .home-content h3 {
+        font-size: 37px;
+        margin-left: 19px;
+    }
+
+    .home-content h2 {
+        font-size: 47px;
+        margin-left: 26px;
+    }
+
+    #my-image img {
+        width: 450px;
+        height: auto;
+        margin: 20px auto;
+      
+    }
+
+    #my-image{
+        margin-left: -23px;
+      
+    }
+
+    .home-icon{
+        margin-left: 2px;
+    }
+
+    .home-icon a {
+        width: 1.9rem;
+        height: 1.9rem;
+        font-size: 0.9rem;
+        padding: 5px;
+    }
+
+    .home-btn {
+        padding: 8px 20px;
+        font-size: 14px;
+        margin-left: 10px;
+    }
 
 }
 
 @media all and (min-width: 1025px) and (max-width: 1440px){
-}
+} */

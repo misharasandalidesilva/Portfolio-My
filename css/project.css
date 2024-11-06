@@ -49,29 +49,29 @@
     padding: 20px;
     box-shadow: 5px 8px 14px 2px rgb(100, 110, 110);
     border-radius: 30px;
-    width: 220px;
+    width: 218px;
     height: 300px;
-    margin-top: 100px;
+    margin: 3vw;
     align-items: center;
     color:  black;
     border: 2px solid black;
 }
 
-.topic > h3{
+.topic>h3{
     text-align: center;
     margin: auto;
 }
 
-.topic > h3:hover{
+.topic>h3:hover{
     color: white;
 }
 
-.topic > p{
+.topic>p{
     text-align: center;
     margin: 10px;
 }
 
-#cards-projects > div:hover{
+#cards-projects>div:hover{
     color: white;
     transform: scale(1.1)translateY(-2px);
     box-shadow: 0 0 20px #0ef;
@@ -92,7 +92,7 @@
     cursor: pointer;
     text-decoration: none;
     margin-left: 32px;
-    margin-top: 28px;
+    margin-top: 29px;
     padding: -7px;
 }
 
@@ -104,44 +104,148 @@
     border: 2px solid #0ef;
 }
 
-@media all and (max-width: 320px) {}
-
-@media all and (min-width: 321px) and (max-width: 375px) {}
-
-@media all and (min-width: 376px) and (max-width: 425px) {}
-
-@media all and (min-width: 426px) and (max-width: 768px){
+@media all and (max-width: 320px) {
     #works-projects{
         height: auto;
+    }
+    #works-text{
+        font-size: 74px;
+        margin-top: 54px;
+    }
+    #projects-text{
+        font-size: 28px;
+        margin-top: -58px;
     }
     #cards-projects{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: space-evenly;
-        padding: 20px;
+        justify-content: space-between;
+        margin-top: -20px;
+        padding: 44px;
     }
     #cards-projects>div{
-        width: 200px;
-        height: 290px;
-        margin-top: 100px;
+        width: 69vw;
+        height: 40vh;
+        margin: 6vw;
+        padding: 4vw;
     }
-    #projects-text{
-        font-size: 30px;
+    .p-btn{
+        margin-left: 25px;
+        margin-top: 19px;
     }
-    #cards-projects>div{
-        width: 175px;
-        height: 240px;
+    .topic>p{
+        margin-top: 4px;
+        font-size: 13px;
+    }
+    .topic>h3{
+        font-size: 16px;
     }
 }
 
-/*phone Size*/
-@media all and (max-width: 425px) {
+@media all and (min-width: 321px) and (max-width: 375px) {
+    #works-projects{
+        height: auto;
+    }
+    #works-text{
+        font-size: 83px;
+        margin-top: 51px;
+    }
     #projects-text{
-        font-size: 25px;
+        font-size: 31px;
+        margin-top: -65px;
+    }
+    #cards-projects{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: -46px;
+        padding: 70px;
     }
     #cards-projects>div{
-        width: 200px;
-        height: 225px;
+        width: 69vw;
+        height: 41vh;
+        margin: 6vw;
+        padding: 4vw;
+    }
+    .p-btn{
+        margin-left: 25px;
+        margin-top: 10px;
+    }
+    .topic>p{
+        margin-top: 4px;
+        font-size: 15px;
+    }
+    .topic>h3{
+        font-size: 18px;
+    }
+}
+
+@media all and (min-width: 376px) and (max-width: 425px) {
+    #works-projects{
+        height: auto;
+    }
+    #works-text{
+        font-size: 90px;
+        margin-top: 51px;
+    }
+    #projects-text{
+        font-size: 33px;
+        margin-top: -65px;
+    }
+    #cards-projects{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: -46px;
+        padding: 90px;
+    }
+    #cards-projects>div{
+        width: 60vw;
+        height: 45vh;
+        margin: 6vw;
+        padding: 9px;
+    }
+    .p-btn{
+        margin-left: 31px;
+    }
+    .topic>p{
+        margin-top: 18px;
+    }
+}
+
+@media all and (min-width: 426px) and (max-width: 768px){
+    #works-projects{
+        height: auto;
+    }
+    #works-text{
+        font-size: 97px;
+        margin-top: 47px;
+    }
+    #projects-text{
+        font-size: 40px;
+        margin-top: -73px;
+    }
+    #cards-projects{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: -46px;
+        padding: 90px;
+    }
+    #cards-projects>div{
+        width: 28vw;
+        height: 43vh;
+        margin: 5vw;
+        padding: 9px;
+    }
+    .p-btn{
+        margin-left: 39px;
+    }
+    .topic>p{
+        margin-top: 18px;
     }
 }

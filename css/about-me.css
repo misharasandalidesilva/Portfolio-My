@@ -250,8 +250,8 @@
         text-align: center;
         font-size: 56px;
         color: black;
-        padding: 29px;
-        margin-top: 25px;
+        padding: 43px;
+        margin-top: 22px;
     }
     
     #about>div>h2>span{
@@ -265,6 +265,7 @@
         width: 250px;
         border-radius: 30px;
         margin-left: 59px;
+        margin-top: 0px;
     }
     .aboutme-p{
         line-height: 29px;
